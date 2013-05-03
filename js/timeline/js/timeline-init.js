@@ -8,7 +8,7 @@ var timeline_json = 'timeline json url here';
 
 createStoryJS({
   type: 'timeline',
-  width: '800',
+  width: '100%',
   height: '600',
   //source: timeline_json, // path to the json feed
   source: 'http://hacknight/js/timeline/js/test-json.json',
