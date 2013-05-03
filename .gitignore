@@ -1,0 +1,2 @@
+# Ignore mac filesystem hidden files
+*.DS_Store
