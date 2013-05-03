@@ -1,0 +1,48 @@
+/* COLORS */
+$background: #f9f9f9
+$text: #333
+
+/* FONT SETTINGS */
+$fs: 16px
+$lh: 24px
+
+@import 'includes'
+
+@mixin sans
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+*
+	+border-box // This'll change the box model so everything is contained within it: http://paulirish.com/2012/box-sizing-border-box-ftw/
+	-webkit-tap-highlight-color: transparent // remove webkit tap highlights. Aint nobody got time for that
+
+// SORT OUT VIEWPORT META ON IE10 http://netmagazine.com/features/five-steps-gettin-flexy-responsive-web-design
+@viewport
+	width: device-width
+@-ms-viewport
+	width: device-width
+@-o-viewport
+	width: device-width
+
+html
+	font-size: 62.5%
+
+body
+	background-color: $background
+	color: $text 
+
+#container
+	width: 1024px
+	max-width: 100%
+	margin: 0 auto
+	+sans
+	+fs(16) 
+	line-height: $lh
+	padding: $lh $fs
+
+	h1
+		+fs(24)
+		line-height: $lh*2
+		margin-bottom: $lh
+
+	p 
+		margin-bottom: $lh
