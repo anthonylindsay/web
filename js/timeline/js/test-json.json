@@ -23,7 +23,35 @@
                     "credit":"Hacknight",
                     "caption":"http://www.hacknightdublin.com"
                 }
-            }
+            },
+          {
+                "startDate":"2013,04,30,19,00",
+                "endDate":"2013,04,30,19,00",
+                "headline":"Tickets for Hacknight #1",
+                "text":"<p>Come get your Hack Night on</p>",
+                "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"https://twitter.com/dubhacknight/status/329512507670667264",
+                    "thumbnail":"img/original_hacknight_logo_32.png",
+                    "credit":"Hacknight",
+                    "caption":"http://www.hacknightdublin.com"
+                }
+            },
+          {
+                "startDate":"2013,05,02,19,00",
+                "endDate":"2013,05,03,01,00",
+                "headline":"Dinner!",
+                "text":"<p>This is HACK NIGHT!</p>",
+                "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"https://twitter.com/dubhacknight/status/330405894103904256",
+                    "thumbnail":"img/original_hacknight_logo_32.png",
+                    "credit":"Hacknight",
+                    "caption":"http://www.hacknightdublin.com"
+                }
+            } 
         ],
         "era": [
             {
