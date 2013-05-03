@@ -1,27 +1,27 @@
 {
     "timeline":
     {
-        "headline":"The Main Timeline Headline Goes here",
+        "headline":"Hack Night in Words &amp; Pictures",
         "type":"default",
-        "text":"<p>Intro body text goes here, some HTML is ok</p>",
+        "text":"<p>See what's going on with Hack Night</p>",
         "asset": {
-            "media":"http://yourdomain_or_socialmedialink_goes_here.jpg",
-            "credit":"Credit Name Goes Here",
-            "caption":"Caption text goes here"
+            "media":"img/original_hacknight_logo_32.png",
+            "credit":"Hack Night Dublin",
+            "caption":"the timeline"
         },
         "date": [
             {
-                "startDate":"2011,12,10",
-                "endDate":"2011,12,11",
-                "headline":"Headline Goes Here",
-                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "startDate":"2013,05,02",
+                "endDate":"2013,05,03",
+                "headline":"Hacknight #1",
+                "text":"<p>The very first Hack Night</p>",
                 "tag":"This is Optional",
                 "classname":"optionaluniqueclassnamecanbeaddedhere",
                 "asset": {
-                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
-                    "thumbnail":"optional-32x32px.jpg",
-                    "credit":"Credit Name Goes Here",
-                    "caption":"Caption text goes here"
+                    "media":"http://www.hacknightdublin.com",
+                    "thumbnail":"img/original_hacknight_logo_32.png",
+                    "credit":"Hacknight",
+                    "caption":"http://www.hacknightdublin.com"
                 }
             }
         ],
